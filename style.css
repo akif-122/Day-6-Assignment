@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.btn{
+	padding: 10px 20px;
+	border: 3px solid #01d9b0;
+	color: black;
+	font-size: 17px;
+	background: #01d9b0;
+	font-weight: 600;
+	transition: 0.4s;
+}
+
+.btn:hover{
+	color: #01d9b0;
+	background: transparent;
+}
+
+header{
+	color: white;
+	background: #2F3552;
+
+}
+header nav{
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 100px;
+
+}
+
+header nav .header-left{
+	display: flex;
+	align-items: center;
+}
+
+header nav .header-left h2{
+	font-size: 30px;
+	margin: 20px;
+	color: #01d9b0;
+}
+
+header nav .header-left ul{
+	display: flex;
+	margin-left: 40px;
+	list-style: none;
+}
+
+header nav .header-left ul a{
+	color: white;
+	margin: 20px 10px;
+	font-size: 17px;
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.4s;
+}
+header nav .header-left ul a:hover{
+	color: #01d9b0;
+
+}
+header .flex{
+	padding: 70px 20px;
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+
+}
+header .flex{
+	margin: 40px 100px;
+}
+header .flex .header-text{
+	margin-left: 50px ;
+	text-align: right;
+} 
+
+
+header .flex .header-text span{
+	color: crimson;
+	font-weight: 600;
+}
+
+header .flex .header-text h1{
+	font-size: 50px;
+}
+
+header .flex .header-text h1 span{
+	color: #01d9b0;
+}
+header .flex .header-text button{
+	margin-top: 20px;
+}
